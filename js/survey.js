@@ -310,7 +310,7 @@ var resultTrial = {
     timeline: [ 
       getChoiceTrial(), 
       decisionTrial,
-      //waitTrial,   開発用
+      waitTrial,   
       resultTrial
     ],
     loop_function: function(data){
@@ -333,4 +333,5 @@ var resultTrial = {
       },
     ]
   };
+
 }
